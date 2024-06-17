@@ -7,7 +7,15 @@ submitButton.addEventListener("click", function() {
     let mood = document.querySelector(".mood").value;
     let food = document.querySelector(".food-name").value;
     let birthYear = document.querySelector(".year").value;
-    let age = 2023 - birthYear; // update to 2024, if necessary
+    let age = 2024 - birthYear;
+    let city = document.querySelector('.city').value 
+    console.log(results);
+    results.innerHTML = "<h1> My name is</h1>"+(myName)+("<h1>I'm feeling</h1>")+(mood)+("<h1> and I absolutely lovvveeeeee eating</h1>")+(food);
+    
+    
+    
+    
+    // update to 2024, if necessary
     // 1. Declare a variable to save the value of the city the user is from.
 
     // 2. Below write your sentences! 
